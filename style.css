@@ -91,7 +91,72 @@ body {
     color: #c8c8c8;
     border: none;
   }
+ 
+ 
+.faixa{
+    position: absolute;
+    height: 170%;
+    width: 5%;
+    background-color: #483D41;
+    left: 95%;
+  }
+.faixa2{
+   position: absolute;
+   height: 170%;
+   width: 5%;
+   background-color: #483D41;
+   left: 0%;
+ }
+.texto{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 7%;
+    top: 20%;
+    background-color: #E0E4E7;
+    color: #3B3B39;
+    opacity: 0.7;
+    font-size: 18px;
   
+ }
+.texto:hover{
+  
+   background-color:  #483d41;
+   color: #E0E4E7;
+  
+  
+ }
+.texto2{
+   position: absolute;
+   height: 60%;
+   width: 40%;
+   left: 53%;
+   top: 20%;
+   background-color: #E0E4E7;
+   color: #3B3B39;
+   opacity: 0.5;
+   font-size: 18px;
+  }
+.texto2:hover{
+  
+   background-color:  #483d41;
+   color: #E0E4E7;
+  
+  
+ }
+.texto3{
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    left: 10%;
+    top: 90%;
+    background-color: #E0E4E7;
+    color: #3B3B39;
+    opacity: 0.5;
+  
+ }
+ 
+
   
 .footer{
     position: absolute;
