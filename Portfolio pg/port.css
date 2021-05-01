@@ -45,7 +45,9 @@ body {
     border: none;
   }
 a{
+   
   text-decoration: none;
+   
   }
 .portifolio-button{
     position: relative;
@@ -89,6 +91,13 @@ a{
     color: #c8c8c8;
     border: none;
   }
+ .faixa{
+    position: absolute;
+    height: 150%;
+    width: 7%;
+    background-color: #483D41;
+    left: 89%;
+ }
  .texto{
     position: absolute;
     height: 60%;
@@ -104,20 +113,13 @@ a{
    background-color:  #483d41;
    color: #E0E4E7;
  }
- .faixa{
-   position: absolute;
-   height: 120%;
-   width: 7%;
-   background-color: #483D41;
-   left: 85%;
-}
  .footer{
-    position: absolute;
-    left: 0;
-    top:120%;
-    width: 100%;
-    height: 10%;
-    background-color: #433F40;
+   position: absolute;
+   left: 0;
+   top:150%;
+   width: 100%;
+   height: 10%;
+   background-color: #433F40;
  }
  label{
     font-family: 'Roboto Condensed', sans-serif;
@@ -150,80 +152,137 @@ a{
     font-size: 20px;
     color: whitesmoke;
  }
- /*Editanto a página de contatos*/
-.fund{
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
-    text-align: center;
-    position: absolute;
-    background-color: #534343;
-    width: 15%;
-    height: 85%;
-    top: 20%;
-    left: 65%;
-    transition: 1s;
+ .label5{
+  font-size: 15px;
+  color: whitesmoke;
+  position: absolute;
+  left: 80%;
+}
+ /*Editando página do portfólio*/
+ div#port{
+   background-color: #E0E4E7;
+   color: #3B3B39;
+   font-size: 19px;
+   padding: 15px ;
+   text-align: justify;
+   box-shadow: 2px 2px 0 0 #cecece;
+   border-radius:5px;
+   opacity: 0.7;
+    position: absolute; 
+  }
+  div#port:hover{
+   background-color:  #483d41;
+   color: #E0E4E7;
+  }
+  .txt1{
+    height: 35%;
+    width: 35%;
+    left: 10%;
+    top: 40%;
  }
- .fund:hover{
-    width: 20%;
-    left: 65%;
-    background-color: #483D41;
+ .txt1:hover{
+    z-index: 1;
  }
- .copy{
-    position: absolute;
-    padding: 10px;
-    top: 135%;
- }
- .cont{
-    text-align: justify;
-    color: wheat;
- }
- .logcont{
-    max-width: 35%;
-    max-height: 35%;
-    transition: 2s;
- }
- .logcont:hover{
-   -ms-transform: rotate(-360deg);
-   -webkit-transform: rotate(-360deg);
-   -moz-transform: rotate(-360deg);
-   -o-transform: rotate(-360deg);
-   transform: rotate(-360deg);
-   transition: 2s;
- }
- .figcont{
-    margin-left: 150px;
-    margin-top: 150px;
-    position: absolute;
- }
- .figcont2{
-   width: 17%;
-   height: auto;
-   margin-left: 146px;
-   margin-top: 243px;
+ .bike{
    position: absolute;
+   max-width: 21%;
+   max-height: auto;
+   top: 23%;
+   left: 25%;
    z-index: 1;
  }
- .btnc{
-    font-size: medium;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    borde:none;
-    color: black;
-    padding: 10px; 
+ .txt2{
+    height: 35%;
+    width: 35%;
+    left: 50%;
+    top: 40%;
  }
- .btnc:hover{
-    transition: 1s;
-    background-color: rgb(55, 7, 87);
-    color: white;
- }
-.contato{
+ .txt2:hover{
+   z-index: 1;
+}
+ .place{
    position: absolute;
+   max-width: 21%;
+   max-height: auto;
+   top: 20%;
+   left: 67%;
+   z-index: 1;
+ }
+ .txt3{
+    height: 35%;
+    width: 35%;
+    left: 10%;
+    top: 100%;
+ }
+ .txt3:hover{
+   z-index: 1;
+}
+ .guardian{
+   position: absolute;
+   max-width: 21%;
+   max-height: auto;
    top: 80%;
-   left: 15%;
+   left: 27%;
+   z-index: 1;
+ }
+ .txt4{
+    height: 35%;
+    width: 35%;
+    left: 50%;
+    top: 100%;
+ }
+ .txt4:hover{
+   z-index: 1;
 }
-.contato h1{
-   text-shadow: #3B3B39 1px 0.5px;
-   font-size: 40px;
-   opacity: 0.7;
-   transition: 3s;
-}
+ .soft{
+   position: absolute;
+   max-width: 21%;
+   max-height: auto;
+   top: 80%;
+   left: 67%;
+   z-index: 1;
+ }
+ .siga{
+    position: absolute;
+    height: 15%;
+    width: 80%;
+    left: 10%;
+    top: 300%;
+ }
+ h2.title{
+    
+   padding-top: 15px;
+   padding-left: 15px;
+ }
+ h3.title{
+   z-index: 1;
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px 0px 0px 50px;
+ }
+ p.port{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 55px 10px 20px 30px;
+ }
+ img.prog{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 550px;
+    width: 30%;
+    height: 60%;
+    transition: 2s;
+ }
+ .butao{
+    font-size: large;
+    margin-left: 500px;
+    margin-top: -15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+ }
+ .butao:hover{
+    color: white;
+    background-color: rgb(24, 5, 68);
+ }
