@@ -150,6 +150,12 @@ a{
     font-size: 20px;
     color: whitesmoke;
  }
+ .label5{
+   font-size: 15px;
+   color: whitesmoke;
+   position: absolute;
+   left: 80%;
+ }
  /*Editanto a página de contatos*/
 .fund{
     border-radius: 15px;
@@ -190,19 +196,6 @@ a{
    transform: rotate(-360deg);
    transition: 2s;
  }
- .figcont{
-    margin-left: 150px;
-    margin-top: 150px;
-    position: absolute;
- }
- .figcont2{
-   width: 17%;
-   height: auto;
-   margin-left: 146px;
-   margin-top: 243px;
-   position: absolute;
-   z-index: 1;
- }
  .btnc{
     font-size: medium;
     background-color: whitesmoke;
@@ -221,6 +214,7 @@ a{
    top: 80%;
    left: 15%;
 }
+/*
 .contato h1{
    text-shadow: #3B3B39 1px 0.5px;
    font-size: 40px;
