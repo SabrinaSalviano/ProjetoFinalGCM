@@ -99,6 +99,7 @@ a{
     width: 5%;
     background-color: #483D41;
     left: 95%;
+    z-index: 0;
   }
 .faixa2{
    position: absolute;
